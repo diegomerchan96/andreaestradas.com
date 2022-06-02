@@ -15,7 +15,7 @@ function dateMinus(what) {
     var nw = today - what * 10000
     var newd = new Date()
     newd.setTime(nw)
-    var mthName = ['Janeiro', 'Fevereiro', 'MarÃ§o', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+    var mthName = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
     var mthNm = mthName[newd.getMonth()]
     return (newd.getDate() +
         ' de ' +
