@@ -39,11 +39,11 @@ $('like').on('click', function() {
     if ($(this).hasClass('liked')) {
         $(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text(parseInt($(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text()) - 1)
         $(this).removeClass('liked')
-        $(this).text('Curtir')
+        $(this).text('Me gusta')
     } else {
         $(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text(parseInt($(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text()) + 1)
         $(this).addClass('liked')
-        $(this).text('Descurtir')
+        $(this).text('Me gusta')
     }
 })
 $('reply').on('click', function() {
@@ -66,7 +66,7 @@ function handleReply(id) {
         obj.attr('id') +
         '"><div class="col-xs-10"><input type="text" value="' +
         text +
-        '" placeholder="AÃ±ade una respuesta..." class="fb-reply-input" /></div><div class="col-xs-2"><button class="fb-reply-button" onclick="javascript:postReply(' +
+        '" placeholder="Añade una respuesta..." class="fb-reply-input" /></div><div class="col-xs-2"><button class="fb-reply-button" onclick="javascript:postReply(' +
         obj.attr('id') +
         ');">Responder</button></div></div>')
 }

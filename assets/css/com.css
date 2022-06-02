@@ -33,6 +33,7 @@ body {
   margin: auto;
   position: relative;
   color: #4267b2;
+  background: #fff;
 }
 
 .fb-comments-header {
@@ -228,10 +229,31 @@ tr {
       position:relative!important; display: inline-block!important;
       border-style: solid; 
       width: 100%; padding-left: 0!important; padding-right: 0!important; 
+      margin-bottom: 10px;
+      padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
+      border-radius: 6px; 
+      background: linear-gradient(to bottom, #FC0400 0%, #E80000 100%); 
+      box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+      text-decoration: none!important;
+    }
+    .a-btn-new {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: inherit; 
+      vertical-align: baseline;
+      color: #2e82bc; 
+      outline: 0; 
+      line-height: 1; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      width: 95%; padding-left: 0!important; padding-right: 0!important; 
       margin-bottom: 10px; 
       padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
       border-radius: 6px; 
-      background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%); 
+      background: linear-gradient(to bottom, #FC0400 0%, #E80000 100%); 
       box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
       text-decoration: none!important;
     }
@@ -248,7 +270,7 @@ tr {
       z-index: 1; 
       padding: 0 15px; 
       white-space: normal; 
-      font-size: 25px;
+      font-size: 22px;
       color: #ffffff; 
       font-family: Oswald; 
       font-weight: bold; 
@@ -271,4 +293,25 @@ tr {
       font-weight: bold; 
       font-style: italic;
       text-shadow: #000000 0px 1px 0px;
+    }
+    .r{
+      text-align: left;
+      font-size: 15px;
+      line-height: initial;
+    }
+    .bw{
+      background: #EAEAEA; 
+      color: #000;
+      padding: 40px 0;
+      border: 1px solid #E80000;
+    }
+    .garantia{
+      color: #fff;
+      font-weight: 300;
+      background: #9E0000;
+      padding: 20px 5px;
+    }
+    .principal{
+      font-size: 14px;
+      padding-top: 15px;
     }
