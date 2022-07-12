@@ -18,6 +18,10 @@ img {
     max-width: 100%;
 }
 
+iframe#hotmart_upsell_iframe {
+    height: 700px;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
